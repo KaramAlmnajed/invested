@@ -433,6 +433,7 @@ section.who-we-are {
     justify-content: space-between; /* Space out the cards evenly */
     gap: 2rem; /* Space between cards */
     margin-top: 2rem; /* Space above the card container */
+    margin-bottom: 40px; /* Space below the card container */
     max-width: 1200px; /* Optional: Set a max width for the container */
     margin-left: auto; /* Center align the container */
     margin-right: auto; /* Center align the container */
@@ -453,6 +454,16 @@ section.who-we-are {
 /* Ensure the hover effect is consistent */
 .card:hover {
     transform: translateY(-5px); /* Hover effect */
+}
+
+/* Specific styles for icons in cards */
+.card h4 {
+    display: flex; /* Use flexbox for icon and text alignment */
+    align-items: center; /* Center align items vertically */
+}
+
+.card h4 i {
+    margin-right: 10px; /* Space between icon and text */
 }
 
 /* Logo adjustments */

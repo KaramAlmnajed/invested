@@ -433,6 +433,7 @@ section.who-we-are {
     justify-content: space-between; /* Space out the cards evenly */
     gap: 2rem; /* Space between cards */
     margin-top: 2rem; /* Space above the card container */
+    max-width: 1200px; /* Optional: Set a max width for the container */
 }
 
 .card {
@@ -440,10 +441,11 @@ section.who-we-are {
     color: var(--text-light); /* Text color */
     border-radius: 10px; /* Rounded corners */
     padding: 2rem; /* Padding inside the card */
-    flex: 1; /* Allow cards to grow and fill space */
+    flex: 1 1 calc(50% - 1rem); /* Adjust for two cards per row */
     max-width: calc(50% - 1rem); /* Adjust for two cards per row */
     text-align: center; /* Center text inside the card */
     box-shadow: var(--box-shadow); /* Shadow effect */
+    min-width: 300px; /* Set a minimum width */
 }
 
 /* Logo adjustments */
